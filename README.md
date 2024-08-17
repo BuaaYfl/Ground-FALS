@@ -28,8 +28,7 @@ For the [KITTI datasets](https://www.cvlibs.net/datasets/kitti/eval_odometry.php
 ```
 roslaunch ground_fals normal_kitti.launch 
 ```
-So far, we have only provided launch files for [M2DGR](https://github.com/SJTU-ViSYS/M2DGR) and [NTU VIRAL](https://github.com/ntu-aris/ntu_viral_dataset).
-
+So far, we have only provided launch files for [M2DGR](https://github.com/SJTU-ViSYS/M2DGR) and [KITTI datasets](https://www.cvlibs.net/datasets/kitti/eval_odometry.php)
 ### build a lookup table for a spinning LiDAR
 Set the parameters in the _**yaml**_ file for the LiDAR carefully.
 **_compute_table_** must be set to true.
